@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 # Read the /etc/passwd file line by line
 
 while IFS=: read -r username _ uid _ _ home _; do
